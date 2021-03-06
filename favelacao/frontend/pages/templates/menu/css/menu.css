@@ -1,0 +1,50 @@
+.logo {
+    width: 110px !important;
+    padding: 5px !important;
+}
+
+.navbar{
+    background-color:white !important;
+    /* color: white !important; */
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.material-icons {
+    color: rgb(167, 144, 144) !important;
+}
+
+a {
+    color: #219EBC !important;
+    text-decoration: none !important;
+    background-color: transparent !important;
+}
+
+.nav li a {
+    position: relative !important;
+    display: block !important;
+    position: fixed; top: auto !important;
+}
+
+a:hover {
+    color:#FFB703!important;
+}
+
+/* html {
+    font-family: 'Roboto', sans-serif !important;
+} */
+
+.imgMenu{
+    margin-left: 50px;
+ 
+}
+
+/* .menu{
+  width:100%;
+} */
+/* @media screen and (max-width: 900px){
+  navbar{
+    width: 320px !important;
+  }
+} */

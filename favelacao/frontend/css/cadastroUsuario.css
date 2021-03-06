@@ -1,0 +1,165 @@
+body {
+  font-size: 100%;
+  background-color: #219EBC;
+  margin-top: 120px ;
+  
+}
+
+html, body {
+  font-family: 'Roboto', sans-serif;
+}
+
+main {
+  /* background: white; */
+  background-color:#219EBC ;
+  margin: 8px 0;
+  /* padding: 10px; */
+}
+
+
+main div {
+  margin: 2px auto;
+}
+
+
+main div:nth-child(2) {
+  width: 800px;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 1px 5px 222px #8ECAE6; 
+  background-color:white ;
+}
+
+label {
+  /* background-color: black; */
+  /* color: black; */
+  color: #219EBC;
+  margin-top: 10px;
+}
+
+.titulo {
+  /* background-color: black; */
+  /* color: black; */
+  color: white;
+  margin-top: 5px;
+}
+
+
+.titulo img{
+  width: 50px;
+  height: 50px;
+}
+.boton {
+    border: none;
+    outline: none;
+    height: 35px;
+    color: #fff;
+  
+    /* background: #fff; */
+
+    background: #fb8500;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+
+.boton:hover {
+    cursor: pointer;
+    /* background: #ff4d4d; */
+
+    background: #ffb703;
+    color:#023047;
+    transition: 0.2;
+}
+
+.acor {
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    /* color: #bdb5b5; */
+    /* color: #8ecae6; */
+    color: #219EBC;
+    
+    /* color: #023047 !important; */
+
+    /* color: #FFF; */
+    transition: 0.2s;
+}
+
+.acor:hover {
+    transition: 0.2s;
+    /* color: #ff4d4d; */
+    color: #ffb703;
+    /* color: #023047; */
+
+}
+
+.iconInstagram, .iconGit{
+  height: 20px;
+  margin: 20px;
+}
+
+.card-body{
+  width: 100%;
+}
+
+.form-check {
+ 
+  width: 100px; 
+  margin: 10px 20px;
+  display: inline-block;
+}
+
+.rounded{
+  margin-left:60px;
+  margin-right:60px;
+}
+
+.btnimg{
+  width: 200px;
+  height: 200px;
+}
+
+.selecao{
+  width: 100%;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+  main div:nth-child(2) {
+    width: 350px;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 1px 5px 222px #8ECAE6; 
+    background-color:#fff ;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  main div:nth-child(2) {
+    width: 300px;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 1px 5px 222px #8ECAE6; 
+    background-color:#fff ;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  main div:nth-child(2) {
+    width: 270px;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 1px 5px 222px #8ECAE6; 
+    background-color:#fff ;
+  }
+}
+
+
+@media screen and (width: 768px) {
+  main div:nth-child(2) {
+    width: 748px;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 1px 5px 222px #8ECAE6; 
+    background-color:#fff ;
+  }
+}
+

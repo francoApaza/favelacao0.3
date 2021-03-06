@@ -1,0 +1,106 @@
+body { 
+  background:#219EBC ;
+  margin-top: 140px !important;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+html, body {
+  font-family: 'Roboto', sans-serif;
+  font-size: medium; 
+
+}
+.txtContato {
+  padding: 12px;
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+.txtcriado{
+  color: #fff;
+  text-align: center;
+  
+}
+.txtcards {
+  color: #219EBC;
+  
+}
+
+.imgContato {
+  width: 60px;
+  padding-right: 20px;
+}
+.card {
+  min-height: 200px;
+  padding: 5px;
+  text-align: center;
+  color:#FFB703;
+  
+  
+}
+.card {
+  border-radius: 15px 15px !important;
+}
+
+
+h5 {
+  font-weight: bold;
+}
+/* toda parte com icones do squad ou seja a parte que esta em white */
+.timeDev {
+  background-color: #FFF;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 12px;
+}
+.container {
+  color: #219EBC;
+ 
+}
+.containerMissao {
+  padding: 38px;
+
+}
+
+/* icones dos perfils de cada m do squad */
+.caption{
+  padding-bottom: 10px;  
+}
+#idDev {
+  color: #219EBC;
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 20px;
+  font-weight: bold;
+  font-size: 30px;
+}
+#pDev{
+  color: #219EBC;
+  text-align: center;
+  font-size:16px;
+  font-weight: bold;
+  padding-top: 25px;
+}
+#pDevSobre {
+  font-weight: bold;
+  color:#FFB703;
+  text-align: center;
+  font-size: 18px;
+  padding-bottom: 36px;
+
+}
+
+.imgPerfil {
+  border-radius: 50%;
+  margin:  0 auto;
+  width: 112px !important;
+
+}
+
+@media only screen and(max-width:480px){
+  body{
+    padding: 0;
+  }
+}

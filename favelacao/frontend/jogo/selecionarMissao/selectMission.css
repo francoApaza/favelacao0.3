@@ -1,0 +1,142 @@
+body {
+    background:#219EBC ;
+    font-size: 80%;
+  }
+  
+  html, body {
+    font-family: 'Roboto', sans-serif; 
+    font-size: medium; 
+    height: 100%;
+  }
+  
+  
+  label ,h3 {
+    color: black;
+    margin-top: 20px;
+    color: #219EBC;
+  }
+  
+   
+  .logimg {
+    width: 180px;
+    height: 100px;
+    margin-left: 8%;
+  }
+  
+
+  .boton {
+    border: none;
+    outline: none;
+    height: 35px;
+    color: #fff;
+    background: #fb8500;
+    border-radius: 20px;
+    transition: 0.2s;
+    margin-right: 20px;
+    margin-top:20px;
+  }
+  
+  .boton:hover {
+      cursor: pointer;
+      background: #ffb703;
+      color:#023047;
+      transition: 0.2;
+  }
+  
+  /* .aLogin {
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: #219EBC;
+    transition: 0.2s;
+  } */
+  
+  .corbug  {
+    background: #219EBC;
+    width: 100%;
+  }
+   
+  .form-signin {
+    width: 100%;
+    max-width: 500px;
+    padding: 15px;
+    margin: auto;
+  }
+  
+  .sombra {
+    border-radius: 20px 20px 20px 20px;
+    /* box-shadow: 1px 5px 222px #8ECAE6;  */
+    padding: 15px;
+  }
+  
+  .card {
+    border-radius: 20px 20px 20px 20px;
+    background-color:#fff ; 
+  }
+
+
+  .titulo {
+    color: #fff;
+    text-align: center;
+    margin-bottom: -10px;
+  }
+  
+  .card-text {
+    color:#219EBC;
+    text-align: center;
+    margin:20px;
+  }
+
+
+  .bot{
+    background-color: #fb8500;
+    border: none;
+    padding-top: 20px;
+    color: white;
+  }
+
+  .botLink{
+    background-color: #fb8500;
+    border: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .linkMissao{
+    color: white !important;
+    text-decoration-line: none !important;
+  } 
+  
+  .bot:hover{
+    cursor: pointer;
+    background: #ffb703;
+    color:#023047;
+    transition: 0.2;
+  }
+  a:hover {
+    text-decoration-color:#023047 !important;
+  }
+ 
+
+  @media screen and (max-width: 900px) {
+    .sombra {
+      border-radius: 20px 20px 20px 20px;
+      box-shadow: 1px 5px 222px #8ECAE6; 
+      background-color:#fff ; 
+      padding: 15px;
+    }
+  
+    .form-signin {
+      width: 100%;
+      max-width: 600px;
+      padding: 15px;
+      margin: auto;
+    }
+  
+    .card {
+      border-radius: 20px 20px 20px 20px;
+      background-color:#fff !important ; 
+    }
+  }
+  

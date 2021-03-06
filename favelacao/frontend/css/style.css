@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+button, input { 
+  border: 0;
+}
+
+html, body {
+  font-family: 'Roboto', sans-serif; 
+}
+
+.icon {
+  margin-left: 20px;
+  width: 100px;
+  height: 60px;
+}
+
+.iconPlay{
+  width: 60px;
+  height: 40px; 
+}
+
+.fundoAzul {
+  background: url('../img/comunidadeSemCeu.png')center center no-repeat;
+  background-color: #219EBc;
+  height: 80vh;
+  position: relative; 
+  display: flex;
+  align-items: center;  
+}
+
+.personagem {
+  width: 40%;
+  height: 60%;
+  position: absolute;
+  bottom: -38px;
+  right: 3vh;
+}
+
+.personagem img{
+  width: 80%;
+}
+
+.textoBanner {
+ margin-top: 30px ;
+ margin-left: 80px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ width: 400px;
+ height: 80px;
+}
+
+.buttonJogar{  
+  margin-top: 20px;  
+  width: 198px;
+  height: 50px;   
+  background: #FFB703;
+  border-radius: 100px;
+  color: white;  
+  font-size: 32px;
+  font-weight: 700;  
+  outline: none;  
+}
+
+.textDescricao {
+  width: 100%; 
+  background-color: #219EBc;
+  padding: 40px 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tituloFavelacao, .missao h1{  
+  font-size: 38px;
+  font-weight: bold;
+  color: #FFB703;
+}
+
+.descricaoFavelacao{
+  color: white;
+  text-align: center;
+  font-size: 22px;
+  padding: 24px;
+}
+
+.favelaIcon img, .medalIcon img, .rankingIcon img {
+  width: 112px;
+  height: 112px;
+}
+
+.premio h1{
+  margin: 100px 0px;
+  text-align: center;
+  font-size: 38px;
+  font-weight: bold;
+  color: #219EBc;
+
+}
+
+.premioIcons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  color: #219EBc;  
+  font-size: 25px;
+}
+
+.missao{
+  width: 100%;
+  padding: 40px 10px 20px;
+  display: flex;  
+  align-items: center;
+  text-align: center;
+  background-color: #219EBc;  
+  font-size: 25px;
+  flex-direction: column;
+}
+
+.missaoBox{
+  width: 90%;
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+h3{
+  font-size: 12px;
+  font-weight: bold;
+  color:white;
+  margin-top: 24px;
+}
+
+.card {
+  width: 100%;
+  border-top-left-radius: calc(.25rem - 1px);
+  border-top-right-radius: calc(.25rem - 1px);
+  padding-left: 10px;
+  background-color: #219EBc;
+  border: none;
+
+}
+
+.missaoBox{
+  width: 90%;
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+/* span{
+   display: inline-block;
+   margin: 0 auto;
+   color: #FFB703;
+} */
+
+
+/*responsive*/
+@media(max-width: 750px){
+  .textoBanner img {
+    margin: 0 auto;
+    width: 80%;
+    height: 70%;   
+  }
+  .personagem{
+    bottom: -60px;
+  }
+  .rodape img{
+  width: 20px;
+  height: 20px;
+  margin: 5px
+  }
+  .descricaoFavelacao{
+    width: 80%;
+    height: 60%;
+  }
+  .premioIcons, .missaoBox{
+    flex-direction: column;
+  }
+  .missaoBox .card{
+    margin: 10px;
+    width: 90%;
+    height: 150%;
+  }
+}
+
+@media(max-width: 375px){
+  .textoBanner img{
+    width: 100%;    
+  }
+  
+  
+}
+

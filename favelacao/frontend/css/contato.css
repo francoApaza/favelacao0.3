@@ -1,0 +1,113 @@
+body {
+  
+  background:#219EBC ;
+  margin-top: 140px !important;
+}
+html, body {
+  font-family: 'Roboto', sans-serif;
+  font-size: medium; 
+
+}
+.titulo {
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  
+  
+}
+h1 {
+  font-weight: bold;
+}
+.imgContato {
+  width: 60px;
+  padding-right: 20px;
+  padding-bottom: 2px;
+
+}
+
+main {
+  /* background:#219EBC ; */
+
+  margin: 8px 0;
+}
+
+main div {
+  color: white;
+  margin: 2px auto;
+  
+}
+
+main div:nth-child(2) {
+  width: 370px;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 1px 5px 222px #8ECAE6; 
+  background-color:#fff ; 
+}
+label ,h3 {
+  /* background-color: black; */
+  color:#219EBC;
+  margin-top: 20px;
+}
+
+.logimg {
+  width: 180px;
+  height: 100px;
+}
+
+.boton {
+border: none;
+outline: none;
+height: 35px;
+color: #fff;
+background: #fb8500;
+border-radius: 20px;
+transition: 0.2s;
+margin-right: 20px;
+margin-top:20px;
+}
+
+.boton:hover {
+  cursor: pointer;
+  /* background: #ff4d4d; */
+  background: #ffb703;
+  color:#023047;
+  transition: 0.2;
+}
+
+.aLogin {
+font-weight: bold;
+text-decoration: none;
+font-size: 12px;
+line-height: 20px;
+/* color: #bdb5b5; */
+/* color: #8ecae6; */
+
+color: #023047 !important;
+
+/* color: #FFF; */
+transition: 0.2s;
+}
+
+.aLogin:hover {
+transition: 0.2s;
+/* color: #ff4d4d; */
+color: red;
+/* color: #023047; */
+
+}
+
+.neo-button {
+  width: 50px;
+  height: 50px;
+  outline: 0 !important;
+  cursor: pointer;
+  color: #fff;
+  font-size: 15px;
+  border: none;
+  margin-left: 350px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+
